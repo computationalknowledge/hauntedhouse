@@ -277,7 +277,16 @@ When a link is clicked, React Router will handle the navigation and render the c
 
 
 
+if you want to start your React application directly without navigating into the project directory every time, you can use the following command from the root directory (C:\lab_react_Oct31b):
 
+bash
+Copy code
+npm --prefix my-haunted-house start
+This command tells npm to run the start script in the my-haunted-house directory, even if you are in a different directory. It allows you to start your React application without changing your current working directory.
+
+Make sure to replace my-haunted-house with your actual project folder name if it's different.
+
+This should start your React application as expected.
 
 
 
