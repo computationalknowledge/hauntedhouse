@@ -128,8 +128,7 @@ Now, you have successfully created the components (HauntedHouse, RoomOne, RoomTw
 
 *** Activity 2:
 
-Here are detailed instructions for students to complete the "Haunted House Activity 2." This includes where to put code, file naming conventions, directory structure, and how to run the app:
-
+Lab Workbook Instructions: Haunted House Activity 2
 Objective: In this lab, you will enhance the Haunted House Explorer app by incorporating React Hooks for state management, Redux for global state management, React Router for app navigation, and WebSockets for real-time updates.
 
 Prerequisites:
@@ -155,9 +154,7 @@ npm install redux react-redux
 Configure Redux Store:
 
 In hauntedHouseSlice.js, create a Redux slice that defines the initial state and reducers for managing the haunted house state.
-Connect to Redux Store:
-
-In the src directory, open index.js and wrap your entire app with the Provider component, providing it with the Redux store.
+Export the slice and set up the Redux store in your index.js file.
 Step 2: Implementing React Hooks
 
 Refactor Components:
@@ -174,6 +171,8 @@ Install React Router:
 
 Run the following command to install React Router:
 
+bash
+Copy code
 npm install react-router-dom
 Set Up Routes:
 
@@ -226,13 +225,9 @@ Step 7: Submission
 Submit the Updated Code:
 
 Submit the updated code of your Haunted House Explorer app that includes React Hooks, Redux, React Router, and WebSockets integration.
-Ensure that the Redux files (hauntedHouseSlice.js) are placed in the redux directory and components are organized in the src directory.
+Ensure that the Redux files (hauntedHouseSlice.js) are placed in the redux directory, and components are organized in the src directory.
 Include Documentation:
 
 Include a brief report or README file that explains the changes you made to the app and how each of the mentioned technologies (React Hooks, Redux, React Router, WebSockets) was implemented.
 Optionally, mention any additional features or improvements you made to the app.
-That's it! You've successfully completed the "Haunted House Activity 2" lab, incorporating advanced features into your Haunted House Explorer app.
-
-
-
-
+These detailed instructions should guide students through each step of enhancing the Haunted House Explorer app with React Hooks, Redux, React Router, and WebSockets
