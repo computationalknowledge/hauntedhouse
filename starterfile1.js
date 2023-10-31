@@ -87,6 +87,9 @@ jsx
 Copy code
 // src/Door.js
 import React from 'react';
+import RoomOne from './RoomOne'; // Import RoomOne component
+import RoomTwo from './RoomTwo'; // Import RoomTwo component
+import RoomThree from './RoomThree'; // Import RoomThree component
 
 function Door(props) {
   return (
