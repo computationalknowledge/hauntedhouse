@@ -240,6 +240,44 @@ Optionally, mention any additional features or improvements you made to the app.
 These detailed instructions should guide students through each step of enhancing the Haunted House Explorer app with React Hooks, Redux, React Router, and WebSockets, leaving nothing out.
 
 
+*--- Fix One:  Introducing React Router:
+
+You are trying to pass components (e.g., RoomOne, RoomTwo, RoomThree) as props to the onClick handler in your Door.js component. 
+  However, React expects functions to be passed as event handlers, not components.
+
+If you intend to navigate to different rooms (i.e., render different room components) when a button is clicked, 
+  you should handle the navigation logic using React Router. 
+  
+  Here's how you can modify your Door.js component to achieve this:
+
+
+// src/Door.js
+import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from React Router
+
+function Door() {
+  return (
+    <div className="door">
+      <h1>Choose a room to enter:</h1>
+      {/* Use Link to navigate to different rooms */}
+      <Link to="/room-one">Room One</Link>
+      <Link to="/room-two">Room Two</Link>
+      <Link to="/room-three">Room Three</Link>
+    </div>
+  );
+}
+export default Door;
+
+
+In this updated code: We import Link from react-router-dom.
+We use the Link component to create navigation links to different rooms ('/room-one', '/room-two', '/room-three').
+When a link is clicked, React Router will handle the navigation and render the corresponding room component based on the defined routes.
+
+  Make sure you have set up your React Router routes to render the appropriate room components when these paths are accessed.
+
+
+
+
 
 
 
