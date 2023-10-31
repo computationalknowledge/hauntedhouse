@@ -126,7 +126,11 @@ Now, you have successfully created the components (HauntedHouse, RoomOne, RoomTw
 
 
 
-*** Activity 2:
+*** Activity 2:  Lab Workbook Instructions: Haunted House Activity 2
+Objective: In this lab, you will enhance the Haunted House Explorer app by incorporating React Hooks for state management, Redux for global state management, React Router 
+  for app navigation, and WebSockets for real-time updates.
+
+Detailed step-by-step guide for the "Haunted House Activity 2" lab:
 
 Lab Workbook Instructions: Haunted House Activity 2
 Objective: In this lab, you will enhance the Haunted House Explorer app by incorporating React Hooks for state management, Redux for global state management, React Router for app navigation, and WebSockets for real-time updates.
@@ -134,7 +138,7 @@ Objective: In this lab, you will enhance the Haunted House Explorer app by incor
 Prerequisites:
 
 Basic knowledge of React and JavaScript.
-Familiarity with Create React App and Redux is helpful but not required.
+Familiarity with Create React App, Redux, React Router, and WebSocket libraries is helpful but not required.
 Step-by-Step Instructions:
 Step 1: Setting Up Redux
 
@@ -228,6 +232,11 @@ Submit the updated code of your Haunted House Explorer app that includes React H
 Ensure that the Redux files (hauntedHouseSlice.js) are placed in the redux directory, and components are organized in the src directory.
 Include Documentation:
 
-Include a brief report or README file that explains the changes you made to the app and how each of the mentioned technologies (React Hooks, Redux, React Router, WebSockets) was implemented.
+Include a comprehensive README file that explains the changes you made to the app and how each of the mentioned technologies (React Hooks, Redux, React Router, WebSockets) was implemented.
 Optionally, mention any additional features or improvements you made to the app.
-These detailed instructions should guide students through each step of enhancing the Haunted House Explorer app with React Hooks, Redux, React Router, and WebSockets
+These detailed instructions should guide students through each step of enhancing the Haunted House Explorer app with React Hooks, Redux, React Router, and WebSockets, leaving nothing out.
+
+
+
+
+
